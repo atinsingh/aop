@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Atin
+  profiles:
+    active: dev,docs
+
+team:
+  blueTeam:
+      name: TorontoRaptor
+  redTeam:
+      name: GoldenWarriors

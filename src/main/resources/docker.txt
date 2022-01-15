@@ -1,0 +1,12 @@
+
+
+docker run -d \
+       -p 3306:3306 \
+       -e MYSQL_ROOT_PASSWORD=root \
+       -e MYSQL_USER=app \
+       -e MYSQL_PASSWORD=app \
+       -e MYSQL_DATABASE=pragra \
+       mysql
+
+       jdbc:mysql://localhost:3306/pragra
+
